@@ -8,12 +8,12 @@
 #include<stdlib.h>
 #include<string.h>
 #pragma warning(disable:4996)
-int binary(int arr[], int s, int e, int value) {
 
-	if (s > e) {  //기저조건
+int binary(int arr[], int s, int e, int value) {
+	//기저조건
+	if (s > e) {  
 		return -1;
 	}
-
 	else if (s == e) {
 		if (arr[s] == value) {
 			return s;
@@ -25,7 +25,8 @@ int binary(int arr[], int s, int e, int value) {
   
 	else {
 		int mid = (e + s) / 2;
-    if (arr[mid] == value) {
+ 	  	
+		if (arr[mid] == value) {
 			return mid;
 		}
 		else if (value > arr[mid]) {
