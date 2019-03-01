@@ -1,6 +1,6 @@
 <h1>Parametric_Search</h1>
 
-<h3> &nbsp; &nbsp; 1. 경계를 찾는다 </h3>
+<h3> &nbsp; &nbsp; 1. 조건을 만족하는 개수와 만족하지 않는 개수의 경계를 이진탐색으로 찾는다 </h3>
 
 ```cpp
 
