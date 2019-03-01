@@ -72,5 +72,5 @@ int main(void) {
 	return 0;
 }
 ```
-
+![Binary_quiz](./img/binary_search_ex1.JPG)
 
