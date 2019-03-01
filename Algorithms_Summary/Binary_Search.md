@@ -10,10 +10,12 @@
 #pragma warning(disable:4996)
 
 int binary(int arr[], int s, int e, int value) {
+	
 	//기저조건
 	if (s > e) {  
 		return -1;
 	}
+	
 	else if (s == e) {
 		if (arr[s] == value) {
 			return s;
